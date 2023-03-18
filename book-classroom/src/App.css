@@ -21,19 +21,18 @@ body {
   padding: 0;
   overflow: hidden;
 }
-
-li {
+  li {
     float: right;
     display: inline;
-}
+    }
 
-li a {
+  li a {
     display: block;
     padding: 8px ;
     list-style-type: none;
     background-color: #111B7 ; 
     color: #ffffff;
-}
+  }
 
 p {
   color: rgb(255, 255, 255);
