@@ -8,25 +8,23 @@ function Status(){
           <nav>
         <ul>
           <li>
-            <Link to="/">Home</Link>
-          </li>
-          <li>
-            <Link to="/reserve">Reserve</Link>
+            <Link to="/Input">Logout</Link>
           </li>
           <li>
             <Link to="/status">Status</Link>
           </li>
           <li>
-            <Link to="/Input">Login</Link>
+          <Link to="/reserve">Reserve</Link>
+          </li>
+          <li>
+            <Link to="/">Home</Link>
           </li>
         </ul>
+        <p>บันทึกจองห้องเรียน</p>
       </nav>
-            <h1>บันทึกจองห้องเรียน</h1>
-
-            <h1> รายการการจองห้องเรียนของท่าน </h1>
-
         </div>
     )
+    
 }
 
 export default Status;
